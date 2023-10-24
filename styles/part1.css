@@ -1,0 +1,24 @@
+table, th, tr, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+tr {
+    text-align: right;
+}
+.month {
+    text-align: left;
+    padding-left: 10px;
+}
+.year {
+    text-align: left;
+    background-color: silver;
+}
+.tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: none;
+  }
